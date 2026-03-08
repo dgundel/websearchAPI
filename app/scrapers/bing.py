@@ -1,8 +1,7 @@
 import base64
 import logging
 import random
-import re
-from urllib.parse import urlparse, parse_qs, unquote
+from urllib.parse import urlparse, parse_qs
 
 from lxml import html
 import httpx

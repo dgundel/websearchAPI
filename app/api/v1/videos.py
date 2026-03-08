@@ -25,6 +25,7 @@ def _raw_to_video_result(r: RawResult) -> VideoResult:
         url=r.url,
         description=r.description,
         age=r.age,
+        duration=r.duration,
         source=r.source_name,
         thumbnail=thumbnail,
         meta_url=meta,

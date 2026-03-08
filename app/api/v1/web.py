@@ -3,7 +3,7 @@ from fastapi.params import Query
 
 from app.dependencies import verify_api_key
 from app.aggregator.aggregator import aggregate
-from app.schemas.request import WebSearchParams, SafeSearch
+from app.schemas.request import SafeSearch
 from app.schemas.response import (
     WebSearchResponse, WebResults, WebResult, QueryContext, MetaUrl, Thumbnail
 )

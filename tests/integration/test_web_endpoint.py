@@ -1,8 +1,6 @@
 import pytest
-import httpx
-import respx
 from fastapi.testclient import TestClient
-from unittest.mock import AsyncMock, MagicMock, patch
+from unittest.mock import AsyncMock, MagicMock
 
 from app.main import app
 from app.scrapers.base import RawResult

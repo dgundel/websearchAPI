@@ -1,10 +1,8 @@
-import json
 import logging
 import re
 import random
 
 import httpx
-from lxml import html
 
 from .base import AbstractScraper, RawResult
 

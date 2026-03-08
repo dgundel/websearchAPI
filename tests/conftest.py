@@ -1,8 +1,6 @@
 import pytest
-import httpx
 import respx
 from fastapi.testclient import TestClient
-from httpx import AsyncClient
 
 from app.main import app
 from app.config import settings

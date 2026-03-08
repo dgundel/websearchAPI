@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 import logging
 
 import httpx
@@ -17,6 +17,7 @@ class RawResult:
     thumbnail_src: str | None = None
     image_src: str | None = None
     source_name: str | None = None
+    duration: str | None = None
 
 
 class AbstractScraper(ABC):

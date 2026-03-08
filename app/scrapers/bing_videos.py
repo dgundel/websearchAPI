@@ -103,6 +103,7 @@ class BingVideosScraper(AbstractScraper):
                 thumbnail_src=thumbnail_src,
                 source_name=source,
                 age=age,
+                duration=duration,
             ))
 
         return results

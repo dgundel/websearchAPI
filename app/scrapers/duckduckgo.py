@@ -1,6 +1,5 @@
 import logging
 import re
-from lxml import html
 import httpx
 
 from .base import AbstractScraper, RawResult

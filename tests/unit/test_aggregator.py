@@ -1,5 +1,4 @@
 import pytest
-import httpx
 from unittest.mock import AsyncMock, MagicMock
 
 from app.aggregator.aggregator import aggregate, _normalize_url
