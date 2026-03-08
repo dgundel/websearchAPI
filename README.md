@@ -106,6 +106,16 @@ Full parameter reference: [docs/api-reference.md](docs/api-reference.md)
 
 ---
 
+## ClawBot Skill
+
+A ready-made [ClawBot](https://openclaw.ai) skill is included in [`skills/web-search/`](skills/web-search/). Copy it to your ClawBot skills directory to give your bot access to all search endpoints:
+
+```bash
+cp -r skills/web-search/ ~/.openclaw/workspace/skills/
+```
+
+---
+
 ## Development
 
 ```bash
