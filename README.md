@@ -33,7 +33,6 @@ X-API-Key: your-key
 
 ## Features
 
-- **Brave-compatible schema** — drop-in replacement for clients using the Brave Search API
 - **Multi-engine aggregation** — Google, Bing, DuckDuckGo scraped in parallel
 - **Smart ranking** — results appearing in more engines rank higher; tie-broken by position
 - **URL deduplication** — normalized comparison strips trailing slashes, fragments and case
